@@ -1,0 +1,35 @@
+@use '../../Foundation';
+
+.p-hero {
+	background-image: Foundation.$bg_gradation;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: Foundation.$primary_contrast;
+	padding: 100px 0 60px;
+	@include Foundation.mq('tab-pc') {
+		padding-bottom: 120px;
+		min-height: 85vh;
+	}
+
+	&__container {
+		margin-top: 50px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	&__title {
+		margin-top: 0;
+		margin-bottom: 25px;
+		@include Foundation.mq('tab-pc') {
+			margin-bottom: 40px;
+		}
+	}
+
+	&__paragraph {
+		font-size: 1.92rem;
+		margin-bottom: 30px;
+	}
+}

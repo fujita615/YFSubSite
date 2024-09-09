@@ -1,0 +1,39 @@
+//色指定
+$base_white: #ffffff;
+$base_black: #222222;
+$base_gray: #95a3b3;
+$base_beige: #ffccc2;
+
+$primary: #4b4e4d;
+$primary_contrast: #84dcc6;
+$primary_dark: #e69253;
+$secondary: #9e0031;
+$secondary_dark: #fffb46;
+$secondary_contrast: #d58936;
+
+$bg_gradation: radial-gradient(
+		ellipse farthest-corner at 70% 50%,
+		rgba(#e69253, 0.25),
+		transparent 50% 100%
+	),
+	radial-gradient(ellipse farthest-corner at 40% 75%, rgba(#fffb46, 0.25), transparent 100%),
+	repeating-radial-gradient(
+		circle farthest-corner at 50% 50%,
+		rgba(#84dcc6, 0.01) 65%,
+		rgba(#84dcc6, 0.005) 25%,
+		rgba(#84dcc6, 0.01)
+	),
+	repeating-radial-gradient(
+		circle farthest-corner at 50% 50%,
+		rgba(#e4502e, 0.01) 35%,
+		rgba(#e4502e, 0.005) 25%,
+		rgba(#e4502e, 0.01)
+	);
+
+$bg_gradation-dark: radial-gradient(
+		ellipse farthest-corner at 20% 20%,
+		rgba(#222222, 0.25),
+		transparent 50% 100%
+	),
+	radial-gradient(ellipse farthest-corner at 70% 50%, rgba(#9e0031, 0.25), transparent 50% 100%),
+	radial-gradient(ellipse farthest-corner at 40% 75%, rgba(#9e0031, 0.25), transparent 100%);
