@@ -1,6 +1,6 @@
 # ホームページ(SPA)
 ## URL
-https:/sub/yf5160.com
+https://sub.yf5160.com
 
 ## 背景
 ポートフォリオサイトのコードです。
